@@ -1,8 +1,8 @@
 import re
 import base64
 
-def get_html(f):
-    with open(f'{f}', 'r') as FILE:
+def get_html():
+    with open('index.html', 'r') as FILE:
         html = FILE.read()
     return re.split(r'(<img [^>]*>)', html)
 
@@ -19,9 +19,9 @@ def get_img(e):
 
 
 if __name__ == "__main__":
-    filename = input("Enter HTML file: ")
+    filename = input("Enter HTML file name: ")
 
-    html_text = get_html(filename)
+    html_text = get_html()
 
     for i, elem in enumerate(html_text):
         if elem[:4] == '<img':
