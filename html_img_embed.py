@@ -1,12 +1,18 @@
 import re
 import base64
 
+
+# Function which returns the contents of the index.html
+# file as list split at <img> tags, separators included
 def get_html():
     with open('index.html', 'r') as FILE:
         html = FILE.read()
     return re.split(r'(<img [^>]*>)', html)
 
 
+# Function which reads the <img> src, gets the contents
+# of the source .png file, and replaces the src attribute
+# with the embedded base 64 data of the file
 def get_img(e):
     e = re.split(r'(src=\"[^\"]*\")', e)
     img = e[1][5:-1]
