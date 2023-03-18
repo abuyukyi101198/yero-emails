@@ -1,5 +1,7 @@
 # YERO E-mails
 
+### Description
+
 This repository contains the HTML contents for automated standard e-mails to be sent to clients.
 
 The `images` directory contains all the images to be embedded in the e-mails in `PNG` format.
