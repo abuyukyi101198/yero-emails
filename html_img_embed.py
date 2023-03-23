@@ -33,5 +33,5 @@ if __name__ == "__main__":
         if elem[:4] == '<img':
             html_text[i] = get_img(elem)
 
-    with open(f'mails/{filename}', 'w') as MAIL:
+    with open(f'templates/samples/{filename}', 'w') as MAIL:
         MAIL.write(''.join(html_text))
