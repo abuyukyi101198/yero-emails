@@ -15,7 +15,7 @@ blocks placed in an e-mail top-to bottom.
 * `templates/`: `HTML` code and assets for sample e-mails and sections
     * `assets/`: Example `PNG` files used for illustration in the sample e-mails _(taken
       from [unDraw](https://undraw.co/illustrations))_.
-    * `samples/`: `HTML` files of sample e-mails constructed using the designed sections
+    * `samples/`: `HTML` files of sample Lorem Ipsum e-mails constructed using the designed sections
     * `social/`: `PNG` files used as social media icons in the `Footer` section
     * `template.html`: `HTML` file containing all the designed modular sections
 * `html_img_embed.py`: Python script used to embed image data in the `index.html` file used to create the samples, and
@@ -63,3 +63,5 @@ blocks placed in an e-mail top-to bottom.
 * **h3**: Used for `Body` titles
 * **h4**: Used for `Header` type-logo
 * **h5**: Used for `Footer` text
+
+**_MAKE SURE TO VIEW THE PREVIEW SAMPLES_**
