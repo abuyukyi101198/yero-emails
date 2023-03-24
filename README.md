@@ -1,7 +1,5 @@
 # YERO E-mails
 
----
-
 ![Lorem Ipsum E-mails](previews/visual.png)
 
 ### *Description*
@@ -42,3 +40,26 @@ blocks placed in an e-mail top-to bottom.
 5. `Image`: A section containing a mail-width image.
 6. `Footer`: Bottom-most section to be used in all e-mails. Contains social media links, copyright, contact information,
    unsubscription link.
+
+### *Styles*
+
+#### Fonts
+
+* **Spectral**
+  * _wght: 400 & **700**_
+* **Prompt**
+  * _wght: 500 & **700**_
+
+#### Colors
+
+* **Background**: <span style="color: #FFFFFF">_#FFFFFF_</span>
+* **Primary**: <span style="color: #000D3B">_#000D3B_</span>
+* **Secondary**: <span style="color: #EC0B0C">_#EC0B0C_</span>
+
+#### Headings
+
+* **h1**: Used for `Banner` title
+* **h2**: Used for `Banner` subtitle
+* **h3**: Used for `Body` titles
+* **h4**: Used for `Header` type-logo
+* **h5**: Used for `Footer` text
