@@ -39,14 +39,14 @@ blocks placed in an e-mail top-to bottom.
 4. `Button`: A section containing a link styled as a mail-width button.
 5. `Image`: A section containing a mail-width image.
 6. `Footer`: Bottom-most section to be used in all e-mails. Contains social media links, copyright, contact information,
-   unsubscription link.
+   and the unsubscription link.
 
 ### *Styles*
 
 #### Fonts
 
-* **Spectral**
-  * _wght: 400 & **700**_
+* **Spectral** _(type-logo font)_
+  * _wght: **700**_
 * **Prompt**
   * _wght: 500 & **700**_
 
@@ -63,5 +63,3 @@ blocks placed in an e-mail top-to bottom.
 * **h3**: Used for `Body` titles
 * **h4**: Used for `Header` type-logo
 * **h5**: Used for `Footer` text
-
-**_MAKE SURE TO VIEW THE PREVIEW SAMPLES_**
