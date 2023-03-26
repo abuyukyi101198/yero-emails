@@ -29,7 +29,8 @@
         h1 {
             font-size: .75rem;
             font-weight: 700;
-            margin: 1rem 1rem .3rem;
+            margin: 0 1rem .3rem;
+            color: #FFFFFF;
         }
         
         h2 {
@@ -37,6 +38,7 @@
             font-weight: 500;
             font-style: italic;
             margin: 0 1rem;
+            color: #FFFFFF;
         }
         
         ul {
@@ -55,6 +57,18 @@
             top: 0.1rem;
             margin-right: 0.2rem;
         }
+        
+        li a {
+            text-decoration: underline;
+            color: inherit;
+        }
+        
+        #right {
+            background-image: url("logo.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: right;
+        }
 
         @media screen and (min-width: 350px) {
             body {
@@ -72,12 +86,19 @@
 <body>
     <table id="signature" role="presentation" border="0" cellspacing="0" width="100%">
         <tr>
+            <td height="25px"></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="background-color: #000D3B">
+                <h1>Işılay Yılmaz</h1>
+                <h2>Director of Business Development</h2>
+            </td>
+        </tr>
+        <tr>
             <td style="width: 35%; padding: 2% 4% 0 2%">
                 <img src="../templates/assets/portrait.png" alt="" style="width: 100%; background-color: #FFFFFF; border-radius: 50%">
             </td>
-            <td style="border-left: 1px solid #000D3B">
-                <h1>Işılay Yılmaz</h1>
-                <h2>Director of Business Development</h2>
+            <td id="right" rowspan="2" style="border-left: 1px solid #000D3B">
                 <ul>
                     <li style="margin-bottom: .5rem"><img src="call.png" alt="">+90 312 223 52 18 - 310</li>
                     <li style="margin-bottom: .5rem"><img src="arroba.png" alt=""><a href="mailto:isilay.devcan@ye-ro.com">isilay.devcan@ye-ro.com</a></li>
